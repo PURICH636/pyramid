@@ -1,0 +1,80 @@
+  body {
+      position: relative;
+  }
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  
+  .affix {
+      top: 20px;
+      width: 20%;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      background-color: #F44336;
+      border-color: #53F636;
+  }
+  .affix a {
+      color: #fff !important;
+      padding: 15px !important;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  .affix-top a {
+      padding: 10px !important;
+  }
+  
+  div.col-sm-9 div {
+      height: 470px;
+      font-size: 28px;
+  }
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+  }
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+  
+  #text_padding{padding-top: 170px; padding-left: 90px}
+  
+  #section1 {color: #fff; background-color: #1E88E5; margin: 10px; padding: 20px;}
+  #section2 {color: #fff; background-color: #673ab7; margin: 10px; padding: 20px;}
+  #section3 {color: #fff; background-color: #ff9800; margin: 10px; padding: 20px;}
+  #section4 {color: #fff; background-color: #00bcd4; margin: 10px; padding: 20px;}
+  #section5 {color: #fff; background-color: #009688; margin: 10px; padding: 20px;}
+  #section6 {color: #fff; background-color: #d9534f; margin: 10px; padding: 20px;}
+  #section7 {color: #fff; background-color: #67b168; margin: 10px; padding: 20px;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4, #section5, #section6, #section7  {
+        margin-left: 150px;
+    }
+  }
+  
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
